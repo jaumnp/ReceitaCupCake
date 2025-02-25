@@ -1,0 +1,76 @@
+:root {
+  font-family: 'Alice', sans-serif;
+  color: #573a37;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+body {
+  background-image: url("assets/cupcake.jpg");
+  background-size: cover;
+}
+
+.page {
+  background-color: #F0E8C2;
+  width: 34rem;
+  padding: 1rem 1rem 2rem 1rem;
+  margin: 2rem auto;
+  border-radius: 1rem;
+}
+
+.page main {
+  padding: 0 1.5rem;
+}
+
+.about p + p {
+  margin-top: 1rem;
+}
+
+img {
+  border-radius: 1rem;
+  width: 100%;
+}
+
+h1 {
+  font-size: 1.6rem;
+  line-height: 3.5rem;
+  
+}
+
+h2 {
+  font-size: 1.3rem;
+  line-height: 3rem;
+  margin-top: 1rem;
+}
+
+li {
+  margin-left: 1.3rem;
+  list-style: '• ';
+  font-size: 1.3rem;
+}
+
+p {
+  font-size: 1.3rem;
+}
+
+h1, h2 {
+  color: #291b1a;
+}
+
+footer {
+  text-align: center;
+  color: #f0e8c2;
+  padding-bottom: 2rem;
+  font-size: 1.2rem;
+}
+
+footer img {
+  width: 1.5rem;
+  vertical-align: middle;
+  margin: 0 0.3rem 0 0;
+}
